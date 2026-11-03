@@ -1,0 +1,8 @@
+return {
+  summary="DexNav for all 11 cartridges, canonical National numbering and Hoennto travel.",
+  author="Shane",
+  tags={"gameplay","encounters","gen1","gen2","gen3","1025dex","hoennto"},
+  differences={changed={"National-numbered APIs and migrated per-save progress", "Native Gen 1/2/3 search battles"},
+    added={"Native Gen 1/2 text menus and SELECT routing", "Gen 2 time-of-day pools", "Hoennto lifecycle resets", "WildFollowers occupancy checks"},
+    known={"Abilities require Gen 3; held items require Gen 2 or 3", "Automated tests use controlled graphics/runtime services; live visual testing remains necessary"}},
+}

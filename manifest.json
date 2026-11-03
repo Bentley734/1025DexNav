@@ -1,0 +1,41 @@
+{
+  "id": "gen3_dexnav",
+  "name": "1025DexNav",
+  "version": "0.2.2",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "content",
+  "game_version": ">=0.3.54",
+  "category": "GAMEPLAY",
+  "priority": 600,
+  "dependencies": [],
+  "optional_dependencies": [
+    "1025dex@>=1.2.15",
+    "wildfollowers@>=3.0.0-beta.5",
+    "kanto_hoenn@>=0.2.4",
+    "firered_widescreen_qol@>=1.5.3"
+  ],
+  "conflicts": [
+    "DexNav"
+  ],
+  "incompatible": [],
+  "games": [
+    "red",
+    "blue",
+    "yellow",
+    "gold",
+    "silver",
+    "crystal",
+    "ruby",
+    "sapphire",
+    "firered",
+    "leafgreen",
+    "emerald"
+  ],
+  "experimental": false,
+  "permissions": [
+    "engine_internals"
+  ],
+  "description": "National-numbered DexNav for all 11 Gen 1\u20133 games, with live 1025Dex pools, per-save progress migration, Hoennto cartridge travel and WildFollowers occupancy compatibility.",
+  "github": "Bentley734/1025DexNav"
+}
